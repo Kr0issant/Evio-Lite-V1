@@ -16,5 +16,6 @@ dependencies = [
     "jaxlib>=0.10.0",
     "optax>=0.2.8",
     "pandas>=3.0.3",
-    "metamon"
+    "metamon",
+    "tqdm>=4.67.3",
 ]

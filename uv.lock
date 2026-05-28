@@ -430,6 +430,7 @@ dependencies = [
     { name = "metamon" },
     { name = "optax" },
     { name = "pandas" },
+    { name = "tqdm" },
 ]
 
 [package.metadata]
@@ -440,6 +441,7 @@ requires-dist = [
     { name = "metamon", editable = "metamon" },
     { name = "optax", specifier = ">=0.2.8" },
     { name = "pandas", specifier = ">=3.0.3" },
+    { name = "tqdm", specifier = ">=4.67.3" },
 ]
 
 [[package]]

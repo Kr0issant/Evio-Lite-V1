@@ -11,3 +11,4 @@ wheels/
 .vscode
 
 metamon/replays
+train_imitation/sample.json
