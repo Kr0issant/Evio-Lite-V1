@@ -1,3 +1,9 @@
+[tool.uv.workspace]
+members = ["metamon"]
+
+[tool.uv.sources]
+metamon = { workspace = true }
+
 [project]
 name = "evio-lite-v1"
 version = "0.1.0"
@@ -10,4 +16,5 @@ dependencies = [
     "jaxlib>=0.10.0",
     "optax>=0.2.8",
     "pandas>=3.0.3",
+    "metamon"
 ]
